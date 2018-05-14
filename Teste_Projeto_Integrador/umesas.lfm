@@ -1,0 +1,8 @@
+object FRMMesa: TFRMMesa
+  Left = 357
+  Height = 240
+  Top = 148
+  Width = 320
+  Caption = 'Mesa'
+  LCLVersion = '1.8.0.4'
+end

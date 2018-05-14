@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="ProjetoIntegrador"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="TurboPowerIPro"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="ProjetoIntegrador.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ulog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRMLog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLog"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRM_Main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="umenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRMMenu"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMenu"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="umesas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRMMesa"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMesas"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="utotal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRTotal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uTotal"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../bancodedados/udesktop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uDesktop"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="unovocliente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRM_novoLiente"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uNovoCliente"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uusuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRMUser"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUsuario"/>
+      </Unit8>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="ProjetoIntegrador"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="../bancodedados"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="EConvertError"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

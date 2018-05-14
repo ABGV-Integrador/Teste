@@ -1,0 +1,41 @@
+object FRMLog: TFRMLog
+  Left = 449
+  Height = 80
+  Top = 218
+  Width = 199
+  Caption = 'Log'
+  ClientHeight = 80
+  ClientWidth = 199
+  LCLVersion = '1.8.0.4'
+  object ED_Log: TEdit
+    Left = 0
+    Height = 27
+    Top = 0
+    Width = 199
+    Align = alTop
+    OnChange = ED_LogChange
+    TabOrder = 0
+    TextHint = 'DIgite o log'
+  end
+  object ED_Senha: TEdit
+    Left = 0
+    Height = 27
+    Top = 27
+    Width = 199
+    Align = alTop
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 1
+    TextHint = 'Senha'
+  end
+  object BT_OK: TButton
+    Left = 0
+    Height = 25
+    Top = 54
+    Width = 199
+    Align = alTop
+    Caption = 'OK'
+    OnClick = BT_OKClick
+    TabOrder = 2
+  end
+end

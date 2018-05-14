@@ -1,0 +1,50 @@
+unit uLog;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,uMain;
+
+type
+
+  { TFRMLog }
+
+  TFRMLog = class(TForm)
+    BT_OK: TButton;
+    ED_Log: TEdit;
+    ED_Senha: TEdit;
+    procedure BT_OKClick(Sender: TObject);
+    procedure ED_LogChange(Sender: TObject);
+  private
+
+  public
+
+  end;
+
+var
+  FRMLog: TFRMLog;
+
+implementation
+
+{$R *.lfm}
+
+{ TFRMLog }
+
+procedure TFRMLog.BT_OKClick(Sender: TObject);
+begin
+  if (ED_Log.Text = 'admin') and (ED_Senha.Text = 'admin') then
+  begin
+    FRM_Main.ShowModal;
+    FRMLog.Close;
+
+  end;
+end;
+
+procedure TFRMLog.ED_LogChange(Sender: TObject);
+begin
+end;
+
+end.
+

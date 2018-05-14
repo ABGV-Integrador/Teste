@@ -1,0 +1,58 @@
+object FRM_Main: TFRM_Main
+  Left = 396
+  Height = 247
+  Top = 207
+  Width = 477
+  Caption = 'Main'
+  ClientHeight = 224
+  ClientWidth = 477
+  Menu = MainMenu1
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.8.0.4'
+  object LBTotal: TListBox
+    Left = 0
+    Height = 200
+    Top = 0
+    Width = 477
+    Align = alTop
+    ItemHeight = 0
+    ScrollWidth = 475
+    TabOrder = 0
+    TopIndex = -1
+  end
+  object LB_Total: TLabel
+    Left = 24
+    Height = 17
+    Top = 80
+    Width = 58
+    Caption = 'LB_Total'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 0
+    Height = 25
+    Top = 200
+    Width = 477
+    Align = alTop
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object MainMenu1: TMainMenu
+    left = 8
+    top = 8
+    object MenuItem2: TMenuItem
+      Caption = 'Menu'
+      OnClick = MenuItem2Click
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Mesas'
+      OnClick = MenuItem3Click
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Total'
+      OnClick = MenuItem4Click
+    end
+  end
+end

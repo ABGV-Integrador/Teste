@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="ProjetoIntegrador.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="56" Y="10"/>
+        <UsageCount Value="38"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ulog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRMLog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLog"/>
+        <TopLine Value="34"/>
+        <CursorPos X="67" Y="46"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRM_Main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="50"/>
+        <CursorPos X="44" Y="50"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="umenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRMMenu"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMenu"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="umesas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRMMesa"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMesas"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="53" Y="6"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="utotal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRTotal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uTotal"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="72"/>
+        <CursorPos X="32" Y="94"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../bancodedados/udesktop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uDesktop"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="48" Y="6"/>
+        <UsageCount Value="38"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/media/yami/CC64CBD664CBC186/VIPSistema/Aula/05-09-2018/02/Unit10.pas"/>
+        <ComponentName Value="Form10"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="8" Y="66"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/lib/lazarus/1.8.0/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2281"/>
+        <CursorPos Y="2295"/>
+        <UsageCount Value="8"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="unovocliente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRM_novoLiente"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uNovoCliente"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="42"/>
+        <CursorPos X="33" Y="96"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="/media/yami/CC64CBD664CBC186/CODExamples/RodrigoCM-Delphi/Unit1(3).pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/media/yami/CC64CBD664CBC186/CODExamples/RodrigoCM-Delphi/uCalc(1).pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="90"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/media/yami/CC64CBD664CBC186/CODExamples/RodrigoCM-Delphi/uFrmConfig(1).pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="/media/yami/CC64CBD664CBC186/CODExamples/RodrigoCM-Delphi/Calculadora/uPrincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/media/yami/CC64CBD664CBC186/CODExamples/RodrigoCM-Delphi/TESTE/FrmDobro.pas"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="/usr/lib/lazarus/1.8.0/lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="652"/>
+        <CursorPos X="14" Y="663"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="uusuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FRMUser"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUsuario"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="117"/>
+        <CursorPos X="17" Y="136"/>
+        <FoldState Value=" T0i5237="/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="62" Column="36" TopLine="39"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="67" Column="6" TopLine="46"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="71" Column="5" TopLine="52"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="57" Column="21" TopLine="48"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="72" Column="16" TopLine="58"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="77" Column="3" TopLine="60"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="41" Column="3" TopLine="40"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="83" Column="13" TopLine="65"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="75" Column="5" TopLine="15"/>
+      </Position9>
+      <Position10>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="78" Column="7" TopLine="73"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="104" Column="40" TopLine="79"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="109" TopLine="83"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="110" Column="10" TopLine="89"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="109" Column="12" TopLine="87"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="115" Column="37" TopLine="92"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="101" Column="12" TopLine="94"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="103" Column="32" TopLine="90"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="104" Column="12" TopLine="90"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="103" Column="6" TopLine="90"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="101" Column="7" TopLine="98"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="103" TopLine="82"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="119" Column="5" TopLine="99"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="107" Column="19" TopLine="93"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="102" TopLine="89"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="103" Column="6" TopLine="93"/>
+      </Position25>
+      <Position26>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="104" Column="6" TopLine="94"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="103" Column="6" TopLine="93"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="104" Column="6" TopLine="94"/>
+      </Position28>
+      <Position29>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="106" Column="6" TopLine="96"/>
+      </Position29>
+      <Position30>
+        <Filename Value="uusuario.pas"/>
+        <Caret Line="132" Column="52" TopLine="114"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

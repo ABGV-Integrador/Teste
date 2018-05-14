@@ -1,0 +1,8 @@
+object FRMMenu: TFRMMenu
+  Left = 477
+  Height = 240
+  Top = 345
+  Width = 320
+  Caption = 'Menu'
+  LCLVersion = '1.8.0.4'
+end
